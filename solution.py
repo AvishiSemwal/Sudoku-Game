@@ -90,3 +90,4 @@ if __name__ == "__main__":
     # Initialize board from the sample puzzle
     board = [row[:] for row in sudoku_puzzle]
     create_gui()
+#code ends
