@@ -42,7 +42,7 @@ def find_mrv_cell(board):
                     best_cell = (row, col)
     return best_cell
 
-# Count the number of valid numbers for a cell
+# Count the number of valid numbers for  cell
 def count_valid_numbers(board, row, col):
     valid_count = 0
     for num in range(1, 10):
